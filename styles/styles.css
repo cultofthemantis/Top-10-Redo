@@ -100,3 +100,10 @@ header{
    
 }
 
+.card-text{
+    margin-bottom: 1rem;
+}
+
+.video{
+    margin: auto;
+}
