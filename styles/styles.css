@@ -1,4 +1,4 @@
-.navbar-text {
+.top-text{
   border-top: rgb(0, 0, 0);
   color: white;
   background-color: rgb(0, 0, 0);
@@ -6,14 +6,19 @@
   font-size: 40px;
   border-bottom:  rgb(0, 0, 0);
   font-family: Georgia, 'Times New Roman', Times, serif;
-
-  height:auto
+margin: auto;
 }
-h1 {
+.h1{
   font-size: 240px;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
 }
+
+h2{
+    color: white;
+}
+
 
 .card-group {
   margin-top: 3rem;
@@ -39,9 +44,11 @@ h1 {
   color: black;
 }
 
-body{
-  background-color:rgb(38, 38, 38);
+.body{
+  background-color:rgb(0, 0, 0);
     align-items: center;
+    color: white;
+    z-index: 1;
 }
 
 .interesttext{
@@ -55,9 +62,11 @@ body{
 .navbar{
   font-size: 32px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: rgb(179, 114, 241);
+  background-color: rgb(0, 0, 0);
   height:auto;
   color: white;
+  align-items: center;
+  display: flex;
 }
 
 h5{
@@ -65,14 +74,22 @@ h5{
   text-align: center;
 }
 
+.section{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 
 
 p{
-align-items: center;
-height: 3rem;
-background-color: rgb(255, 255, 255);
+text-align: center;
 margin-bottom: 1rem;
+color: white;
+margin: auto;
+display: flex;
+font-family: Georgia, 'Times New Roman', Times, serif;
+align-items: center;
+justify-content: center;
 }
 
 
@@ -88,25 +105,22 @@ header{
 .dynasty-card{
    align-items: center;
    justify-content: center;
-
    margin-top: 3rem;
-  
-   
- 
 }
 
 .card-text{
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     font-size: 15px;
     text-align: center;
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5rem;
 }
 
 .video{
     margin:auto;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 0rem;
 }
 
 
