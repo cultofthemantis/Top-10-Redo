@@ -1,6 +1,6 @@
 .navbar-text {
   border-top: rgb(0, 0, 0);
-  color-text: white;
+  color: white;
   background-color: rgb(0, 0, 0);
   text-align: center;
   font-size: 40px;
@@ -28,7 +28,6 @@ h1 {
 }
 
 
-
 .bottombar {
   background-color: rgb(0, 0, 0);
   border-style: solid;
@@ -39,14 +38,6 @@ h1 {
   font-size: 32px;
   color: black;
 }
-
-
-
-
-
-
-
-
 
 body{
   background-color:rgb(38, 38, 38);
@@ -81,15 +72,16 @@ p{
 align-items: center;
 height: 3rem;
 background-color: rgb(255, 255, 255);
-
+margin-bottom: 1rem;
 }
 
 
 
 
 header{
+    margin-top: 5rem ;
   text-align: center;
-  font-size: 128px;
+  font-size: 64px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -98,17 +90,21 @@ header{
    justify-content: center;
 
    margin-top: 3rem;
-   margin-bottom: 500px;
+  
    
-   margin-top: 3rem;  
+ 
 }
 
 .card-text{
     margin-bottom: 1rem;
+    
 }
 
 .video{
-    margin: auto;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
 }
 
 
@@ -119,4 +115,8 @@ header{
 
 .colortxt{
   color:white;
+}
+
+.container{
+    margin-top: 10rem
 }
