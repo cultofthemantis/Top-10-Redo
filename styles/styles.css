@@ -75,8 +75,10 @@ h5{
 }
 
 .section{
-    font-size: 15px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    margin-bottom: 10rem;
 }
 
 
@@ -110,7 +112,7 @@ header{
 
 .card-text{
     margin-bottom: 0rem;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 5rem;
@@ -121,6 +123,7 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 0rem;
+
 }
 
 
